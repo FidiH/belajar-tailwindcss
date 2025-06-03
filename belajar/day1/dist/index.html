@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Day one Belajar Tailwindcss</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="m-5">
+      <h1 class="font-bold text-3xl">Day one Belajar Tailwindcss</h1>
+
+      <p>
+        Di bagian ini saya belajar tentang margin, padding, dan sedikit
+        typography, serta sedikit border
+      </p>
+
+      <h2 class="mt-5 font-semibold text-xl">Margin dan Padding</h2>
+      <p>
+        Margin dan Padding berfungsi sebagai penambah space atau ruang kosong
+        pada area tertentu, margin untuk bagian luar dan tidak memiliki nilai
+        minus sedangkan Padding untuk bagian dalam dan memiliki nilai minus
+      </p>
+      <p class="pl-3 my-4 border-l-4 border-blue-500">
+        elemen ini menggunakan pl-3 atau padding left 12px, menggunakan
+        border-l-4 atau border left ukuran 12px, dan border-blue-500 sebagai
+        warna biru dengan ketebalan 500, serta my-4 atau margin sumbu (y)
+        vertikal dengan jarak 16px
+      </p>
+      <h3 class="text-xl font-semibold">ini adalah heading 3 (h3)</h3>
+      <p class="text-base">
+        teks di atas menggunakan text-xl untuk memperbesar ukuran setara dengan
+        20px, dan menggunakan font-semibold untuk mempertebal, serta teks ini
+        menggunakan text-base atau 16px
+      </p>
+
+      <h2 class="mt-5 font-bold text-2xl">Teks alignmen</h2>
+      <section class="text-left mt-2">
+        <h4 class="font-semibold">Rata Kiri</h4>
+        <p>
+          teks ini rata kiri menggunakan text-left, Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Accusantium, amet.
+        </p>
+      </section>
+      <section class="text-justify mt-2">
+        <h4 class="font-semibold">Rata Tengah</h4>
+        <p>
+          teks ini rata tengah lihat antara kiri dan kanannya ini menggunakan
+          text-justify, Lorem ipsum dolor sit amet, consectetur
+        </p>
+      </section>
+      <section class="text-right mt-2">
+        <h4 class="font-semibold">Rata Kanan</h4>
+        <p>
+          teks ini rata kanan menggunakan text-right, Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Accusantium, amet.
+        </p>
+      </section>
+
+      <h2 class="mt-5 font-bold text-xl">Jarak antar huruf atau Line Height</h2>
+      <div>
+        <h4 class="font-semibold">leading fixed</h4>
+        <br />
+        <p class="leading-3 bg-blue-300">
+          ini teks padet menggunakan leading-5 dan bg-blue-300 sebagai
+          background
+        </p>
+        <br />
+        <p class="leading-10 bg-blue-100">
+          ini teks longgar menggunakan leading-8 dan bg-blue-100 sebagai
+          background Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Voluptate, asperiores.
+        </p>
+        <br />
+        <h4 class="font-semibold">leading relativ</h4>
+        <br />
+        <p class="leading-none">
+          leading-none artinya nilai nya 1 Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Dolores, quidem.
+        </p>
+        <br />
+        <p class="leading-normal">
+          leading-normal artinya nilai nya 1.5 Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Dolores, quidem.
+        </p>
+        <br />
+        <p class="leading-relaxed">
+          leading-relaxed artinya nilai nya 1.625 Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Dolores, quidem.
+        </p>
+        <br />
+        <p class="leading-loose">
+          leading-loose artinya nilai nya 2 Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Dolores, quidem.
+        </p>
+      </div>
+
+      <h2 class="mt-5 font-bold text-xl">detail</h2>
+      <p>
+        class m andalah singkatan margin contohnya dibawah dan tanda * diganti
+        menjadi nilainya
+        <br />
+        m-* = margin semua sisi. <br />
+        mt-* = margin top.<br />
+        mb-* = margin button. <br />
+        mr-* = margin right. <br />
+        ml-* = margin left. <br />
+        my-* = margin sumbu y. <br />
+        mx-* = margin sumbu x
+      </p>
+      <br />
+      <p>
+        class p andalah singkatan padding contohnya dibawah dan tanda * diganti
+        menjadi nilainya
+        <br />
+        p-* = padding semua sisi. <br />
+        pt-* = padding top.<br />
+        pb-* = padding button. <br />
+        pr-* = padding right. <br />
+        pl-* = padding left. <br />
+        py-* = padding sumbu y. <br />
+        px-* = padding sumbu x
+      </p>
+      <br />
+      <p>
+        class border, memberikan garis batas di tepi
+        <br />
+        border-* border<br />
+        border-l-* border left<br />
+        border-r-* border right<br />
+        border-t-* border top<br />
+        border-b-* border button<br />
+        tambahkan class ini "border-namaWarna-ketebalan" untuk menambahkan warna
+        contohnya "border-blue-500"
+      </p>
+    </main>
+  </body>
+</html>

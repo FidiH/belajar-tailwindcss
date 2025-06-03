@@ -1,0 +1,16 @@
+{
+  "name": "belajar-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "day1": "npx tailwindcss -i ./belajar/day1/src/input.css -o ./belajar/day1/dist/style.css --config ./belajar/day1/tailwind.config.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
