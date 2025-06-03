@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "day1": "npx tailwindcss -i ./belajar/day1/src/input.css -o ./belajar/day1/dist/style.css --config ./belajar/day1/tailwind.config.js --watch"
+    "day1": "npx tailwindcss -i ./belajar/day1/src/input.css -o ./belajar/day1/dist/style.css --config ./belajar/day1/tailwind.config.js --watch",
+    "day2": "npx tailwindcss -i ./belajar/day2/src/input.css -o ./belajar/day2/dist/style.css --config ./belajar/day2/tailwind.config.js --watch"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>belajar tailwind day 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="p-5 antialiased">
+      <h4 class="font-light">Day two belajar tailwindcss</h4>
+      <h1 class="font-extrabold text-3xl">Belajar Typography di Tailwindcss</h1>
+      <time class="font-medium">Selasa, June 3 2025</time>
+
+      <p class="mt-2">
+        dibab ini saya belajar tentang penantaan teks pada suatu halaman ataupun
+        dielemen, mengatur <b>tebal</b>, <i>miring</i>, ukuran font, ketebelan
+        font, gaya font dan sebagainya.
+      </p>
+
+      <section class="mt-5">
+        <h3 class="font-semibold text-xl">Gaya font (font-family)</h3>
+        <p class="font-sans">ini font gaya sans class font-sans</p>
+        <p class="font-serif">ini font gaya serif class font-serif</p>
+        <p class="font-mono">ini font gaya mono class font-mono</p>
+      </section>
+
+      <section class="mt-4">
+        <h3 class="font-semibold text-xl">kostum gaya font</h3>
+        <p>
+          import terlebih dahulu fontnya di tag head, misal ambil di google
+          fonts, lalu buka file tailwind.config.js di dalam extend masukan key
+          fontFamily dengan value objek dilanjut nama fontnya yang diimport
+        </p>
+        <pre class="p-2 bg-gray-200 text-xs font-mono">
+extend: {
+  fontFamily: {
+    'edu': ["Edu SA Hand"]
+  }
+}</pre
+        >
+        <p class="font-edu my-3">
+          ini adalah font yang telah di ubah dengan class <b>font-edu</b>
+        </p>
+      </section>
+
+      <section>
+        <h3 class="font-semibold text-xl">font smpothing</h3>
+        <p class="antialiased">
+          teks ini sudah di kasih class <b>antialiased</b> tapi terlihat mirip
+          dengan teks biasa
+        </p>
+        <br />
+        <p class="subpixel-antialiased">
+          teks ini sudah di kasih class <b>subpixel-antialiased</b> tapi
+          terlihat mirip dengan teks biasa
+        </p>
+      </section>
+      <br />
+      <section>
+        <h3 class="font-semibold text-xl">font style</h3>
+        <p class="italic">ini tulisan miring dengan class <b>italic</b></p>
+        <p class="not-italic">
+          ini tulisan tidak miring dengan class <b>not-italic</b>
+        </p>
+      </section>
+      <br />
+      <section>
+        <h3 class="font-semibold text-xl">font weight / ketebalan font</h3>
+        <p class="font-thin">ini class font-thin</p>
+        <p class="font-extralight">ini class font-extralight</p>
+        <p class="font-light">ini class font-light</p>
+        <p class="font-normal">ini class font-normal</p>
+        <p class="font-medium">ini class font-medium</p>
+        <p class="font-semibold">ini class font-semibold</p>
+        <p class="font-bold">ini class font-bold</p>
+        <p class="font-extrabold">ini class font-extrabold</p>
+        <p class="font-black">ini class font-black</p>
+      </section>
+      <br />
+      <section>
+        <h3 class="font-semibold text-xl">font variant numeric</h3>
+        <p>membuat teks di atas menggunakan class <b>ordinal</b></p>
+        <p class="ordinal">1st</p>
+        <br />
+        <p>
+          membuat teks seperti pacahan menggunakan class
+          <b>diagonal-fractions</b>
+        </p>
+        <p class="diagonal-fractions">1/4 | 5/9 | 2/1</p>
+      </section>
+    </main>
+  </body>
+</html>
